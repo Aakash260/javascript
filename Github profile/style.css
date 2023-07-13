@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+     background-color: antiquewhite;
+    justify-content: center;
+     
+}
+.title{
+    font-size: 5vw;
+    text-align: center;
+    position: relative;
+    top: 5vw;
+    font-family: 'VT323', monospace;
+
+}
+.search{
+    margin-top: 2vw;
+}
+
+input{
+    margin-top: 10vh;
+    width: 40vw;
+    height: 6vh;
+}
+
+button{
+    color: white;
+    background-color: brown;
+    border-radius: 2vw;
+    padding: 1vw;
+}
+
+input:focus-visible{
+    outline: 1px solid brown;
+}
+input::placeholder {
+    color: red;  
+    font-style: italic;  
+    
+  }
+
+ .card{
+    position: absolute;
+    left:32vw;
+bottom: 5vw;
+width: 40vw;
+background-color: white;
+padding:2vw;
+border-radius: 1vw;
+box-shadow: 0 2px 4px rgba(1, 1, 1, 0.5);
+ }
+ @media (max-width:786px){
+    .card{
+  
+    margin-top: 21vw;
+    margin-left: -12vw;
+    height: 63vw;
+    width: 73vw;
+    top: 40vw;
+    }
+ }
+ img{
+    width: 8vw;
+    height: 8vw;
+ }
+ .avtar{
+    display: flex;
+    gap:1vw;
+    align-items: center;
+ }
+
+ .top{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ button{
+    height: 5vw;
+ }
+
+ .last{
+    display: flex;
+    margin-top: 1vw;
+    justify-content: space-between;
+ }
