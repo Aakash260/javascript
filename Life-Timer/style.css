@@ -26,9 +26,45 @@ font-family: 'Fasthand', 'cursive';
 }
 
 .skull{
+    font-size: 4rem;  
+}
+
+.flex{
+display: flex;
+position: absolute;
+bottom: 10vh;
+right:7vw;
+ 
+}
+.flex>input{
+    padding:0.5rem
+
+}
+button{
+    font-family: 'Fasthand', 'cursive';
+    width:25%;
+}
+
+.flex1{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+.sc{
+    color: black;
+    font-size: 5vw;
+}
+
+.flex-op{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fasthand', 'cursive';
+    margin: auto 8vw;
+    font-size: 2vw;
     position: absolute;
-    bottom: 5vw;
-    right: 15vw;
-    font-size: 4rem;
-     
+    gap:6vw;
+    top:18vw;
+    color: white
 }
