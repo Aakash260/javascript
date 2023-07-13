@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Fasthand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    
+    background-image: url(img/e9c612d3-57e2-4dc1-b7e6-f6cfb9156df5.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-size: 6vw;
+padding-bottom: 50vh;
+font-family: 'Fasthand', 'cursive';
+ color:red
+}
+
+.skull{
+    position: absolute;
+    bottom: 5vw;
+    right: 15vw;
+    font-size: 4rem;
+     
+}
