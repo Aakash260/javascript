@@ -6,7 +6,7 @@ const calculateMarks=(event) => {
   const Data=new FormData(formdata);
   const oData={};
   Data.forEach((value,key)=>{
-      oData[key]= value;
+      oData[key]= +value;
     });
     const Omaxm=oData.math +oData.english+oData.hindi+oData.science;
     const per=(Omaxm/max)*100;
