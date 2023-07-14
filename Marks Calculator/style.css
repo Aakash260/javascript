@@ -1,0 +1,97 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box
+ }
+
+ .bg {
+     background-image: url(img/IMG_8025.JPG);
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .box {
+     width: 45vw;
+     background-color: gray;
+     height: 35vw;
+     position: relative;
+     left: 30vw;
+     top: 5vw;
+     border-radius: 20px;
+     border: 1px solid #ccc;
+     box-shadow: 0 0 5px rgba(0, 0, 0, 1.6);
+ }
+
+ .title {
+     text-align: center;
+     font-size: 2vw;
+ }
+
+ .grid {
+     display: grid;
+     grid-template-columns: auto auto;
+     gap: 1vw;
+     padding: 1vw;
+ }
+
+ .grid input {
+     margin-top: 2vw;
+     height: 2vw;
+     background-color: black;
+     color: gainsboro;
+ }
+
+ .footer {
+     text-align: center;
+     position: relative;
+     top: 10vw;
+     font-size: 3vw;
+ }
+
+ @media (max-width:786px) {
+     .box {
+         width: 50vw;
+         height: 122vw;
+         left: 17vw;
+         top: 27vw;
+
+     }
+
+     .grid {
+         grid-template-columns: auto;
+     }
+
+     .grid input {
+         height: 10vw;
+     }
+
+     .submit {
+         width: 35vw;
+
+     }
+     .result{
+        top:5vw
+     }
+ }
+
+ input:focus-visible {
+     outline: 2px solid blue
+ }
+
+ .submit {
+     position: relative;
+     left: 10vw;
+     top: 5vw;
+     padding: 1vw;
+     border-radius: 1vw;
+     background-color: blue;
+ }
+
+ .result{
+    color: white;
+    position: relative;
+    bottom:4vw;
+    text-align: center;
+ }

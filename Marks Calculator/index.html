@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Calculator</title>
+    <link rel='stylesheet' href='style.css'>
+    <script defer src='index.js'></script>
+</head>
+
+<body>
+<div class="bg">
+    <div class="box">
+        <div class="title">Calculate Your Age</div>
+        <form action="" onsubmit='calculateMarks(event)' class="grid" id="form">
+     <input type="number" name="math" required min="0" max="100" placeholder="Maths">
+     <input type="number" name='english' required min="0" max="100" placeholder="English">
+     <input type="number" name="hindi" required min="0" max="100" placeholder="Hindi">
+     <input type="number" name="science" required min="0" max="100" placeholder="Science">
+     <button class="submit" type="submit">Calculate</button>
+        </form>
+        <div class="footer">
+            Calculate Your Percentage
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
