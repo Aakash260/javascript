@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box}
+
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    display: flex;
+   position: absolute;
+   top:12vw;
+   left: 20vw;
+    width: 50vw;
+    height: 40vh;
+    background-color: aliceblue;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap:2vw;
+    justify-content: center;
+   margin-left: 10vw;
+}
+
+ button{
+    background-color: aqua;
+    padding: 1vw;
+ }
+
+ input{
+    padding: 1vw;
+    width: 15vw;
+ }
+ img{
+    width: 100%;
+    display: none;
+ }
+
+ .show{
+    display: block;
+ }
