@@ -13,8 +13,9 @@ height: 100vh;
 .box{
     background-color: rgb(255, 255, 255);
     width:450px;
-    height: 850px;
-    margin-top: 5vw;
+    height: 30vw;
+    margin-top: -6vw;
+    overflow-y: scroll;
 }
 
 h1{
@@ -74,7 +75,7 @@ display: flex;
    
     background-color: rgb(187, 102, 102);
     bottom:0;
-    left:35vw;
+    left:34vw;
     width: 450px;
     position: fixed;
 }
@@ -149,4 +150,10 @@ form input {
 .bf{
     display: flex;
     flex-direction: column;
+}
+
+.box_upper{
+    position: sticky;
+    top:0;
+    background-color: white;
 }
