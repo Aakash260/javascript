@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang='en'>
+
 <head>
-<meta charset='UTF-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<title>Expense-Tracker</title>
-<link rel='stylesheet' href='style.css'>
-<script defer src='index.js'></script>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Expense-Tracker</title>
+    <link rel='stylesheet' href='style.css'>
+    <script defer src='index.js'></script>
 </head>
+
 <body>
-<div class="container">
-    <div class="box">
-        <section class="box_upper">
-            <h1>Expense Tracker</h1>
-        <div class="balance">
-            <h2 id="netbal">&#8377;0</h2>
-            <h3>Your Balance</h3>
-        </div>
-        </section>
-        <div class="transaction_container">
-            <h3>Transaction</h3>
-            <hr/>
-            <div class="transactions">
-               
+    <div class="container">
+        <div class="box">
+            <section class="box_upper">
+                <h1>Expense Tracker</h1>
+                <div class="balance">
+                    <h2 id="netbal">&#8377;0</h2>
+                    <h3>Your Balance</h3>
+                </div>
+            </section>
+            <div class="transaction_container">
+                <h3>Transaction</h3>
+                <hr />
+                <div class="transactions">
+
+                </div>
             </div>
+            <section class="transaction_form">
+                <h3>Add Transactions</h3>
+                <form action="" id="transactionid">
+                    <div class="inputs">
+                        <div class="form_c">
+                            <label for="text">Text</label>
+                            <input placeholder="description" type="text" name='text' id='text'>
+                        </div>
+                        <div class="form_c">
+                            <label for="number">Amount</label>
+                            <input placeholder="Amount" type="number" name='amount' id='amountIn'>
+
+                        </div>
+                    </div>
+                    <div class="btn_container">
+                        <button type="submit" id="earntbtn" class="bf">
+                            <p><span id="earnings">0</span>💸</p>
+                            <p>Earnings</p>
+                        </button>
+                        <button type="submit" id="expbtn" class="bf">
+                            <p><span id="expense">0</span>🫰</p>
+                            <p>Expense</p>
+                        </button>
+                    </div>
+                </form>
+            </section>
         </div>
-        <section class="transaction_form">
-            <h3>Add Transactions</h3>
-            <form action="" id="transactionid">
-             <div class="inputs">
-                <div class="form_c">
-                    <label for="text">Text</label>
-                    <input placeholder="description" type="text"name='text'id='text'>
-                  </div>
-                  <div class="form_c">
-                    <label for="number">Amount</label>
-                    <input placeholder="Amount" type="number"name='amount'id='amount'>
-    
-                  </div>
-             </div>
-              <div class="btn_container">
-                <button type="submit" id="earntbtn" class="bf">
-                    <p id="earnings">💸0</p>
-                    <p>Earnings</p>
-                </button>
-                <button type="submit" id="expbtn" class="bf">
-                    <p id="expense">💳0</p>
-                    <p>Expense</p>
-                </button>
-              </div>
-            </form>
-        </section>
     </div>
-</div>
 </body>
+
 </html>

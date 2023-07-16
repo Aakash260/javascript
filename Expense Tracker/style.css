@@ -1,128 +1,130 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
 
-.container{
-display: grid;
-place-items: center;
-height: 100vh;
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
 
 }
 
-.box{
+.box {
     background-color: rgb(255, 255, 255);
-    width:450px;
+    width: 450px;
     height: 30vw;
     margin-top: -6vw;
     overflow-y: scroll;
 }
 
-h1{
+h1 {
     font-size: 4vw;
 }
 
-.balance{
+.balance {
     display: flex;
     flex-direction: column;
-    gap:1vw
+    gap: 1vw
 }
 
-body{
+body {
     background-color: antiquewhite;
 }
 
-.transaction_container{
+.transaction_container {
     margin-top: 2vw;
 }
 
-.transaction .left{
+.transaction .left {
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
     padding: 7px;
 
 }
-.transactions{
+
+.transactions {
     margin-top: 8px;
 }
 
-.transaction{
-  
-margin-top: 20px;
-background-color: rgb(0, 100, 128);
-color: black;
-display: flex;
+.transaction {
+
+    margin-top: 20px;
+    background-color: rgb(0, 100, 128);
+    color: black;
+    display: flex;
 }
 
-.status{
-   
-   min-height: 40px;
+.status {
+
+    min-height: 40px;
     min-width: 40px;
     display: grid;
     place-items: center;
 }
 
-.credit{
+.credit {
     background-color: green
 }
 
-.debit{
+.debit {
     background-color: red
 }
 
-.transaction_form{
-   
+.transaction_form {
+
     background-color: rgb(187, 102, 102);
-    bottom:0;
-    left:34vw;
+    bottom: 0;
+    left: 34vw;
     width: 450px;
     position: fixed;
 }
 
-.transaction_form h3{
-font-size: 40px;
+.transaction_form h3 {
+    font-size: 40px;
 }
 
-.form_c{
-display: flex;
-flex-direction: column;
+.form_c {
+    display: flex;
+    flex-direction: column;
 }
 
-.form_c:first-child{
+.form_c:first-child {
     flex: 2;
 }
 
-.inputs{
+.inputs {
     display: flex;
-    gap:10px
+    gap: 10px
 }
 
-form input{
+form input {
     padding: 10px 15px;
 }
 
-.btn_container{
+.btn_container {
     display: flex;
     height: 4vw;
 }
 
-.btn_container button{
+.btn_container button {
     display: flex;
     width: 100%;
-     height: 5vh;
-     font-size: 3vh;
+    height: 5vh;
+    font-size: 3vh;
 }
 
-#earntbtn{
+#earntbtn {
     background-color: green;
 }
 
-#expbtn{
+#expbtn {
     background-color: red;
 }
 
-@media (max-width:786px){
+@media (max-width:786px) {
     .box {
         background-color: rgb(255, 255, 255);
         width: 62vw;
@@ -130,6 +132,7 @@ form input{
         margin-top: 5vw;
         margin-right: 27vw;
     }
+
     .transaction_form {
         background-color: rgb(187, 102, 102);
         bottom: 78px;
@@ -137,23 +140,36 @@ form input{
         width: 61vw;
         position: fixed;
     }
-form input {
-    padding: 5px 15px;
-    width: 29vw;
-}
-.btn_container{
-     
-    height: 11vw;
-}
+
+    form input {
+        padding: 5px 15px;
+        width: 29vw;
+    }
+
+    .btn_container {
+
+        height: 11vw;
+    }
 }
 
-.bf{
+.bf {
     display: flex;
     flex-direction: column;
 }
 
-.box_upper{
+.box_upper {
     position: sticky;
-    top:0;
+    top: 0;
     background-color: white;
+}
+
+.edit {
+    display: flex;
+    gap: 1vh;
+    display: none;
+}
+
+.show {
+    display: block;
+    display: flex;
 }
