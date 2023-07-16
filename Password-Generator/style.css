@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box}
+
+.container{
+   min-width: 40vw;
+    height: 60vh;
+    background-color: gainsboro;
+   position: absolute;
+   top:10vw;
+   left: 30vw;
+}
+ 
+
+input{
+    position: relative;
+     width: 20vw;
+    padding: 1vw;
+}
+ 
+ .fc{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap:1vw
+ }
+
+.btn{
+    position: absolute;
+    bottom: 0;
+    height: 4vh;
+    width: 100%;
+    background: linear-gradient(to right, #b5bccc, #caf1f1);
+ }
+ 
+ @media (max-width:786px){
+    .container{
+        left: 13vw;
+    }
+ }
+
+ input[type='range']{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    height: 0.5rem;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+ }
+
+ input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove the default appearance */
+    width: 20px; /* Set the width of the thumb */
+    height: 20px; /* Set the height of the thumb */
+    background-color: #d84a4a; /* Set the color of the thumb */
+    border-radius: 50%; /* Create a circular thumb */
+    cursor: pointer; /* Add a cursor pointer on hover */
+    border: 2px solid black;
+  }
+  
+  input[type='checkbox'] {
+   accent-color: red;
+  }
