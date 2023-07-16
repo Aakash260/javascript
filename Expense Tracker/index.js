@@ -46,6 +46,10 @@ const render = () => {
 
 
 }
+
+let isUpdate = false;
+let tid;
+
 const addTran = (e) => {
     e.preventDefault();
     const isEarn = e.submitter.id === 'earntbtn' ? true : false;
@@ -57,13 +61,19 @@ const addTran = (e) => {
     form.reset()
     const { text, amount } = tData;
     const transaction = {
-        id: Math.floor(Math.random() * 1000),
-
+        id: isUpdate ? tid : Math.floor(Math.random() * 1000),
         text: text,
         amount: +amount,
         type: isEarn ? 'credit' : 'debit',
     }
-    state.transactions.push(transaction)
+    if (isUpdate) {
+        const tindex = state.transactions.findIndex((t) => t.id === tid);
+        state.transactions[tindex] = transaction;
+        isUpdate = false;
+        tid = null;
+    } else {
+        state.transactions.push(transaction)
+    }
     render()
 }
 const showedit = (id) => {
@@ -85,8 +95,8 @@ const handleUpdate = (id) => {
     const tamount = document.getElementById('amountIn')
     textinput.value = text;
     tamount.value = amount;
-
-
+    tid = id;
+    isUpdate = true;
 }
 
 form.addEventListener('submit', addTran)
