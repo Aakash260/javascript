@@ -33,6 +33,7 @@ input{
     height: 4vh;
     width: 100%;
     cursor: pointer;
+  left:0;
     background: linear-gradient(to right, #b5bccc, #caf1f1);
  }
  
@@ -67,4 +68,10 @@ input{
 
   i{
    color:#d84a4a; 
+  }
+
+  input{
+   font-style: italic;
+   font-size: 2vw;
+   
   }
