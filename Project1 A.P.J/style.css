@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: #E5E5FD;
+    width: 100vw;
+   min-height: 100vh;
+   border:16px solid #1D1E4C;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.img_container,img{
+    width: 40vh;
+ margin-top: 4vw;
+ margin-left: -3vw;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between
+}
+
+.title{
+    color: #000;
+font-family: Inter;
+font-size: 70px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+}
+
+.sub-container1{
+    margin-top: 23vw;
+    
+}
+
+.year{
+    margin-top: 2vw;
+    margin-left: 41vw;
+}
+
+.section2-title{
+    color: #000;
+    font-family: Inter;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 8vw;
+}
+
+.section2-para{
+    margin-top: 7vw;
+}
+
+.section3-title{
+    margin-top: 5vw;
+}
+
+.points{
+    margin-top: 2vw;
+}
+
+.point-con{
+    margin-left: 2vw;
+    line-height: 2vw;
+}
+
+.footer{
+    margin: 5vw auto;
+    margin-left: 35vw;
+}

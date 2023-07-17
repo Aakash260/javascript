@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav_flex{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap:5vh;
+    
+    height: 100vh;
+    position: sticky;
+  top: 0;
+}
+ ul li{
+     margin: 2vw;
+     list-style: none;
+ }
+a{
+    text-decoration: none;
+    color:black
+}
+
+body{
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.m{
+    padding: 5vh;
+    margin-left: 8vw;
+}
+.int_para{
+    width: 60vw;
+    margin: 0 10vw;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:786px){
+    .nav_flex{
+        width: 28vw;
+    }
+    .h1{
+        font-size: 4vw;
+    }
+    
+}

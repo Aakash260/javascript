@@ -38,9 +38,6 @@ generate.addEventListener('click',(e)=>{
     isUpperCase=uc.checked;
     isLowerCase=lc.checked;
     isSymbol=is.checked;
-
-
-    
 input1.value= passGene(passl);
 })
 

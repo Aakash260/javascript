@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.nav{
+    height: 10vh;
+    background-color: #EDEDEF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    padding-top: 2vh;
+    width:100%;
+}
+.hero_logo{
+    display: flex;
+     align-items: center;
+     font-family: 'Russo One', sans-serif;
+     color: #149F39;
+    
+}
+
+.hero_logo img{
+    min-height: 4vw;
+    margin-bottom: 1vw;
+}
+ 
+.hero_section{
+    display: flex;
+    gap:8vw;
+   margin: 5vw;
+
+}
+
+.offer{
+    
+    background-color: #149F39;
+    color:white;
+    padding: 1vw;
+    width: max-content;
+}
+
+.col2{
+    display: flex;
+    flex-direction: column;
+    gap:2vw
+}
+
+.title{
+    font-size:3vw;
+}
+.col2 p{
+    width: 26vw;
+}
+
+.but{
+    width: max-content;
+    background-color: #FFC066; 
+    padding: 1vw;
+    color: white;
+    font-family: Roboto;
+}
+
+.inner-flex{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    gap: 1rem;
+    margin: auto 5vw;
+    padding-bottom: 5vw;
+}
+ 
+.menu_heading{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    gap:2vw
+}
+.butmenu{
+    background-color: #149F39;
+    width: max-content;
+    padding: 1rem;
+    color:white;
+    margin-top:2vw
+}
+
+ .menu_title{
+    font-size: 40px;
+ }
+
+ @media (max-width:786px){
+    .hero_section{
+        flex-direction: column;
+    }
+    .col1 img{
+        height: 50vh;
+        width: 90vw;
+    }
+    .col2 p{
+        width: auto;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .inner-flex img{
+        width: 40vw;
+    }
+ }
+
+ .grid{
+
+    padding: 5vw 5vw 0;
+    display: grid;
+    gap:1vw;
+    grid-template-areas: "I1 I1 I2 I3" "I1 I1 I2 I7" "I4 I5 I6 I7"
+ }
+
+ .item1{
+    grid-area: I1;
+ }
+ .item2{
+    grid-area: I2;
+ }
+ .item3{
+    grid-area: I3;
+ }
+ .item4{
+    grid-area: I4;
+ }
+ .item5{
+    grid-area: I5;
+ }
+ .item6{
+    grid-area: I6;
+ }
+ .item7{
+    grid-area: I7;
+ }
+
+ .grid img{
+    height: 100%;
+    width: 100%;
+ }
+
+ .footer{
+    height: 35vh;
+    width: 100%;
+    background-color: #FFC066;
+    padding-top: 4vw;
+   
+ }
+ .list{
+    list-style: none;
+ }
+
+ .flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5vw;
+    
+ }
+ .mainlink{
+    display: flex;
+    flex-direction: column;
+    gap:2vw
+ }
+
+.mainlink1{
+    display: flex;
+    flex-direction: column;
+    gap:1vw
+}
+ 
+
+.flex3{
+    display: flex;
+    align-items: center;
+    gap:1vw
+}
