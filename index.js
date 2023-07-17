@@ -22,3 +22,8 @@ fetch('index.json')
 .catch(error => {
   console.error('Error:', error);
 });
+const moon =document.getElementById('moon')
+
+moon.addEventListener('click',(e)=>{
+     
+})

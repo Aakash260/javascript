@@ -141,3 +141,13 @@ gap:1vw;
  .footer{
     text-align: center;
  }
+
+ @media (max-width:786px) {
+    .grid{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .card{
+        width: 50vw;
+    }
+ }
