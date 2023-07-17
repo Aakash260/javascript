@@ -32,6 +32,7 @@ input{
     bottom: 0;
     height: 4vh;
     width: 100%;
+    cursor: pointer;
     background: linear-gradient(to right, #b5bccc, #caf1f1);
  }
  
@@ -62,4 +63,8 @@ input{
   
   input[type='checkbox'] {
    accent-color: red;
+  }
+
+  i{
+   color:#d84a4a; 
   }
