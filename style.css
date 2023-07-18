@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
 :root {
     --primary-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 35%, rgba(9,9,121,1) 100%);
-    
+    --secondary-color: linear-gradient(315deg, #485461 0%, #28313b 74%);
+ 
   }
 *{
 margin: 0;
@@ -11,21 +12,20 @@ box-sizing: border-box}
 body{
     overflow-x: hidden;
     background: var(--primary-color);
-     
+    scroll-behavior: smooth;
 }
 .flex{
     height: 10vh;
-    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     padding: 0 5vw;
     position: sticky;
-    top:0;
+    top: 0;
     border-bottom: 1px solid black;
-      background: var(--primary-color);
-      z-index: 1;
+    background: var(--primary-color);
+    z-index: 1;
 }
 
 .menu{
@@ -151,3 +151,23 @@ gap:1vw;
         width: 50vw;
     }
  }
+
+ .menu>i{
+    border: 2px solid black;
+    padding: 1vw;
+    cursor: pointer;
+ }
+
+ body.dark-mode {
+    
+    background: var(--secondary-color);
+    color: #fff;
+ >.flex{
+    background: var(--secondary-color);
+ }
+    
+  }
+
+  .menu a{
+text-decoration: none;
+  }

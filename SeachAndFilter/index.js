@@ -8,6 +8,7 @@ async function fetchData() {
         }
         const products = await response.json();
         const generateProd = (product) => {
+
             return `  <div class="card">
 <div class="col1">
     <img src=${product.image} alt="">

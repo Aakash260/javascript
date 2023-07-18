@@ -1,72 +1,87 @@
 [
     {
         "src":"/Life-Timer/index.html",
-"name":"Life-Timer"
+"name":"Life-Timer",
+"cat":"js"
     },
     {
         "src":"/Project2 Job App/index.html",
-"name":"Job App"
+"name":"Job App",
+"cat":"html"
     },
     {
         "src":"/Restraunt Menu/index.html",
-"name":"Restraunt Menu"
+"name":"Restraunt Menu",
+"cat":"html"
     },
     {
         "src":"/MusicSite/index.html",
-"name":"MusicSite"
+"name":"MusicSite",
+"cat":"html"
     },
     {
         "src":"/Parallex/index.html",
-"name":"Parallex"
+"name":"Parallex",
+"cat":"html"
     },
     {
         "src":"/MathQuiz/index.html",
-"name":"MathQuiz"
+"name":"MathQuiz",
+"cat":"js"
     },
     {
         "src":"/Landing Page/index.html",
-"name":"Landing Page"
+"name":"Landing Page",
+"cat":"html"
     },
     {
         "src":"/Expense Tracker/index.html",
-"name":"Expense Tracker"
+"name":"Expense Tracker",
+"cat":"js"
     }, 
 
     {
         "src":"/Color Generator/index.html",
-"name":"ColorGenerator"
+"name":"ColorGenerator",
+"cat":"js"
     },
    
     
     {
         "src":"/JavaScript Documentation/index.html",
-"name":"Js Documentation"
+"name":"Js Documentation",
+"cat":"html"
     },
     
     {
         "src":"/Project1 A.P.J/index.html",
-"name":"Tribute"
+"name":"Tribute",
+"cat":"html"
     },
     
    
     {
         "src":"/QR Generator/index.html",
-    "name":"QR Generator"
+    "name":"QR Generator",
+    "cat":"js"
     },
    
     {
         "src":"/SeachAndFilter/index.html",
-"name":"SeachAndFilter"
+"name":"SeachAndFilter",
+"cat":"js"
     },
   
     {
         "src":"/Marks Calculator/index.html",
-"name":"Marks Calculator"
+"name":"Marks Calculator",
+"cat":"js"
     },
    
     {
         "src":"/Github profile/index.html",
-"name":"Github profile"
+"name":"Github profile",
+"cat":"js"
     }
  
 
