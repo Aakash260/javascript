@@ -11,7 +11,7 @@ const createDiv=(element)=>{
             <div class="card_contant fc1">
                 <div class="imf_contant"><iframe src="${src}" frameborder="0"></iframe></div>
                 <div class="flex2">
-                    <a class="img_details" href="${src}" class="hover_code" type="_blank">Live Demo🤗</a>
+                    <a class="img_details" href="${src}" class="hover_code" target="_blank">Live Demo🤗</a>
                     <h4>${name}</h4>
                 </div>
                 <a class="source_code" href="#" class="hover_code">Source Code</a> 
@@ -52,6 +52,7 @@ fetch('index.json')
                 )
             })
             renderProduct(filterC)
+        
         })
         jsCat.addEventListener('click',(e)=>{
           
